@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #EEEEEE;
+}
+
+.container{
+    text-align: center;
+}
+.container h1{
+    font-size: 4rem;
+    font-family:sans-serif'Courier New', Courier, monospace;
+    margin-bottom: 50px;
+    
+}
+
+body{
+    background-image:url(assets/60510524.cms) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form select{
+    width: 450px;
+    padding: 15px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    box-shadow: 0 5px 10px 0 rgb(0,0,0,0.25);
+    cursor: pointer;
+}
+select:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight border on focus */
+}
+
+/* Option styles */
+option {
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Placeholder styles */
+option[value=""] {
+    color: #999; 
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+.enter-button {
+    display: inline-block;
+    margin-top:20px ;
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* margin-left: 20px; */
+    /* background-color:  #dee940; */
+    color: #fff;
+    width: 250px;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .enter-button:hover {
+    background-color: #7e7e7c;
+    color: black;
+  }
+  
+  /* Center the text inside the button */
+  .enter-button span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  /* Optional: Add some shadow for depth effect */
+  .enter-button {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Make the button look pressed when clicked */
+  .enter-button:active {
+    transform: translateY(1px);
+    box-shadow: none;
+  }
